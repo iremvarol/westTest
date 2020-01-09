@@ -411,9 +411,9 @@ a:visited {
     color: #8252c7;
 }
 
-a:hover, a:focus {
+/*a:hover, a:focus {
     color: #ba9fe0;
-}
+}*/
 
 
 #content div div h2.text-center.margin-top {
