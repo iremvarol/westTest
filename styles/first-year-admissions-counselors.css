@@ -301,7 +301,7 @@ input, select {
     position: relative !important;
     height: auto;
     width: 100%;
-    color: white;
+    /*color: white;*/
     padding: 0;
     overflow: visible;
     clip: none;
