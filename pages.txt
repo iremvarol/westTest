@@ -10,17 +10,12 @@ https://www.westminstercollege.edu/about/giving
 https://www.westminstercollege.edu/campus-life/events-and-performances/bastian-foundation-diversity-lectures 
 https://www.westminstercollege.edu/graduate/how-to-apply 
 https://www.westminstercollege.edu/undergraduate/programs/communication 
-
-
-
-
-
-https://www.westminstercollege.edu/campus-life/events-and-performances/performing-arts-events - 1 error (p tag)
-
-https://www.westminstercollege.edu/undergraduate/life-at-westminster - 1 contrast error
 https://www.westminstercollege.edu/undergraduate/tuition-and-aid 
 
+https://www.westminstercollege.edu/campus-life/events-and-performances/performing-arts-events - 1 error (p tag)
+https://www.westminstercollege.edu/undergraduate/life-at-westminster - 1 contrast error
 
-https://www.westminstercollege.edu/undergraduate/programs - 21 errors, because of angular attributes
+
+https://www.westminstercollege.edu/undergraduate/programs - 19 errors, because of angular attributes
 https://www.westminstercollege.edu/campus-life/events-and-performances – event calender errors
 

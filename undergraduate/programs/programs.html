@@ -2595,55 +2595,55 @@
             <div id="MainContent_C016_Col00" class="sf_colsIn container-fluid directory-container" data-sf-element="Container Fluid" data-placeholder-label="Container Fluid">
                 <div class="row" data-sf-element="Row">
                     <div id="MainContent_C023_Col00" class="sf_colsIn col-md-12" data-sf-element="Column 1" data-placeholder-label="Column 1">
-                        <div ng-app="myApp">
-                            <div ng-controller="AppController as vm" data-ng-cloak="" type="UG">
+                        <div data-ng-app="myApp">
+                            <div data-ng-controller="AppController as vm" data-ng-cloak="" type="UG">
                                 <div class="container">
                                     <div class="row">
                                         <form id="programSearchForm">
-                                            <div ng-if="vm.type == 'UG' || vm.type == 'All'" class="form-group form-inline text-center">
+                                            <div data-data-ng-if="vm.type == 'UG' || vm.type == 'All'" class="form-group form-inline text-center">
                                                 <label class="sr-only" for="programSearch">Search All Programs</label>
                                                 <div class="inline-search">
-                                                    <input type="search" ng-model="vm.search.ProgramName" id="programSearch" placeholder="Search by Program Name" class="form-control inline-search__input">
+                                                    <input type="search" data-ng-model="vm.search.ProgramName" id="programSearch" placeholder="Search by Program Name" class="form-control inline-search__input">
                                                     <a href="#results" class="button inline-search--button">
                                                         <span aria-hidden="true" class="fa fa-search"></span>
                                                         <span class="sr-only">Search</span>
                                                     </a>
-                                                    <a href="#programSearchForm" ng-click="changeValue()" class="button inline-clear--button">
+                                                    <a href="#programSearchForm" data-ng-click="changeValue()" class="button inline-clear--button">
                                                         <span aria-hidden="true" class="fa fa-times"></span>
                                                         <span class="sr-only">Clear Search and Filters</span>
                                                     </a>
                                                 </div>
                                             </div>
                                             <div class="from-group text-center">
-                                                <div ng-if="vm.type == 'UG' || vm.type == 'All'">
+                                                <div data-ng-if="vm.type == 'UG' || vm.type == 'All'">
                                                     <p>Filter by Interest:</p>
                                                 </div>
-                                                <div ng-if="vm.type == 'GR'" class="programSearchForm-textWrapper">
+                                                <div data-ng-if="vm.type == 'GR'" class="programSearchForm-textWrapper">
                                                     <p>Filter by Interest:</p>
                                                 </div>
-                                                <ul ng-if="vm.type != 'PRO'" class="inline-list">
-                                                    <li ng-repeat="discipline in vm.disciplines | orderBy : 'name' " class="ng-scope programs_filter-{{discipline.name[0] | lowercase}}{{discipline.name[1] | lowercase}}{{discipline.name[2] | lowercase}}{{discipline.name[3] | lowercase}}">
-                                                        <button ng-click="vm.interest(discipline)" ng-class="{active: discipline.active}" class="button button-grey button-small programs_filter-{{discipline.name[0] | lowercase}}{{discipline.name[1] | lowercase}}{{discipline.name[2] | lowercase}}{{discipline.name[3] | lowercase}}">
+                                                <ul data-ng-if="vm.type != 'PRO'" class="inline-list">
+                                                    <li data-ng-repeat="discipline in vm.disciplines | orderBy : 'name' " class="ng-scope programs_filter-{{discipline.name[0] | lowercase}}{{discipline.name[1] | lowercase}}{{discipline.name[2] | lowercase}}{{discipline.name[3] | lowercase}}">
+                                                        <button data-ng-click="vm.interest(discipline)" data-ng-class="{active: discipline.active}" class="button button-grey button-small programs_filter-{{discipline.name[0] | lowercase}}{{discipline.name[1] | lowercase}}{{discipline.name[2] | lowercase}}{{discipline.name[3] | lowercase}}">
                                                             {{discipline.name}}
                                                         </button>
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <p ng-if="vm.type == 'UG' || vm.type == 'All'" class="text-center programSearchForm-textWrapper">
+                                            <p data-ng-if="vm.type == 'UG' || vm.type == 'All'" class="text-center programSearchForm-textWrapper">
                                                 <a href="/undergraduate/programs/undecided">
                                                     I have no idea what I want to do!
                                                 </a>
                                             </p>
-                                            <hr ng-if="vm.type != 'PRO'">
+                                            <hr data-ng-if="vm.type != 'PRO'">
                                         </form>
                                     </div>
                                 </div>
-                                <p ng-if="vm.type != 'PRO'" class="text-center" id="results">{{filtered.length}}
+                                <p data-ng-if="vm.type != 'PRO'" class="text-center" id="results">{{filtered.length}}
                                     <span class="text-muted">Programs Based on Your Interests</span>
                                 </p>
                                 <div class="card-deck-wrapper">
                                     <div class="card-deck text-center">
-                                        <div ng-if="vm.view == 'Grid'" ng-repeat="program in vm.programs | programFilter:vm.filter:vm.savedPrograms:vm.disciplineFilter | filter:vm.search as filtered" class="card programs_filter-{{program.ProgramName[0] | lowercase}}{{program.ProgramName[1] | lowercase}}{{program.ProgramName[2] | lowercase}}{{program.ProgramName[3] | lowercase}}">
+                                        <div data-ng-if="vm.view == 'Grid'" data-ng-repeat="program in vm.programs | programFilter:vm.filter:vm.savedPrograms:vm.disciplineFilter | filter:vm.search as filtered" class="card programs_filter-{{program.ProgramName[0] | lowercase}}{{program.ProgramName[1] | lowercase}}{{program.ProgramName[2] | lowercase}}{{program.ProgramName[3] | lowercase}}">
                                             <div class="card-block">
                                                 <h4>{{program.ProgramName}}</h4>
                                                 <p class="card-text">
@@ -2660,12 +2660,12 @@
                                                 </p>
                                             </div>
                                             <div class="card-footer">
-                                                <a ng-href="{{program.ProgramPageURL}}" class="button button-grey button-small">Learn More</a>
+                                                <a data-ng-href="{{program.ProgramPageURL}}" class="button button-grey button-small">Learn More</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <a href="#programSearchForm" ng-click="changeValue()" class="button inline-clear--button" id="programSearchStartOver">Start a new search</a>                            </div>
+                                <a href="#programSearchForm" data-ng-click="changeValue()" class="button inline-clear--button" id="programSearchStartOver">Start a new search</a>                            </div>
                         </div>
                     </div>
                 </div>
