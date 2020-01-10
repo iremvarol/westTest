@@ -514,6 +514,17 @@ body {
     padding: 0em 1em 0em 1em;
 }
 
+}
+a.big {
+    color: white;
+}
+ul.footer__list li.footer-list-item a {
+      color: white;
+}
+ul.footer__list li.footer__list-item a {
+    color: white;
+}
+
 
 #programSearchStartOver:hover {
     color: #fff;
