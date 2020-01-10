@@ -2205,3 +2205,16 @@
 	}
 }
 
+a.big {
+    color: white;
+}
+
+ul.footer__list li.footer-list-item a {
+      color: white;
+}
+
+ul.footer__list li.footer__list-item a {
+    color: white;
+}
+
+
