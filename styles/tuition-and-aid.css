@@ -172,3 +172,15 @@
   flex: 0 0 100% !important;
   max-width: 100% !important;
 }
+
+a.big {
+  color: white;
+}
+
+ul.footer__list li.footer-list-item a {
+    color: white;
+}
+
+ul.footer__list li.footer__list-item a {
+  color: white;
+}
