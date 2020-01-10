@@ -1066,7 +1066,7 @@
 	letter-spacing: .1rem;
 	text-align: center;
 	padding: 1em 4em 1em 4em;
-	background-color: rgb(68, 8, 68)
+	background-color: rgb(156, 39, 156)
 }
 
 #life-explore .col .life-nav-big .inner .button:hover {
@@ -1564,7 +1564,7 @@
 	position: absolute;
 	width: 2em;
 	height: 2em;
-	background-color: rgb(68, 8, 68);
+	background-color: rgb(156, 39, 156);
 	border-radius: 50%;
 	cursor: pointer
 }
@@ -1616,7 +1616,7 @@
 	transform: translate(-50%, -50%);
 	width: 30vw;
 	padding: 1em 3em 2em 3em;
-	background-color: rgb(68, 8, 68);
+	background-color: rgb(156, 39, 156);
 	z-index: 9999;
 	visibility: hidden;
 	opacity: 0;
