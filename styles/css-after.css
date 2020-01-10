@@ -5899,12 +5899,12 @@ h4.panel-title > a:after {
 
 /* Nav and Footer Link Color Fixes - USE class on a parent to have all of its children use BS4 styles */
 
-footer * {
-    color: #fff !important;
-    -webkit-transition: .2s all;
-    -o-transition: .2s all;
-    transition: .2s all;
-}
+/*footer * {*/
+/*    color: #fff !important;*/
+/*    -webkit-transition: .2s all;*/
+/*    -o-transition: .2s all;*/
+/*    transition: .2s all;*/
+/*}*/
 
 footer a.button:hover {
     color: #fff !important;
@@ -6235,10 +6235,10 @@ footer h2 {
     }
 }
 
-/*a:visited,
+a:visited,
 .link:visited {
     color: #8252c7;
-}*/
+}
 
 
 /*END ENHANCEMENTS TO PAGE-EDITOR PAGE STYLING */
